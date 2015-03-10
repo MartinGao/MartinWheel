@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'MartinWheel', :exclusive => true do
+  pod "MartinWheel", :path => "../"
+
+  
+end
