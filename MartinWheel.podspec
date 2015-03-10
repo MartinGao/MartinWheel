@@ -10,21 +10,16 @@
 Pod::Spec.new do |s|
   s.name             = "MartinWheel"
   s.version          = "0.1.0"
-  s.summary          = "A short description of MartinWheel."
-  s.description      = <<-DESC
-                       An optional longer description of MartinWheel
+  s.summary          = "A Library written by Martin Gao"
+  s.description      = "A Library written by Martin Gao for personal usage"
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/MartinWheel"
+  s.homepage         = "https://github.com/MartinGao/MartinWheel"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Yufan Gao" => "yug007@ucsd.edu" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/MartinWheel.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Martin Gao" => "marting.gao@gmail.com" }
+  s.source           = { :git => "https://github.com/MartinGao/MartinWheel.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
@@ -34,5 +29,11 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency 'Alamofire'
+    s.dependency 'ChameleonFramework'
+    s.dependency 'pop'
+    s.dependency 'YLMoment'
+    s.dependency 'PureLayout'
+    s.dependency 'SDWebImage'
+
 end

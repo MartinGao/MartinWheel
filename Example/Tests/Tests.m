@@ -6,4 +6,3 @@
 //  Copyright (c) 2014 Yufan Gao. All rights reserved.
 //
 
-${TEST_EXAMPLE}
